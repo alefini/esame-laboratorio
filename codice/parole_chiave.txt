@@ -1,0 +1,16 @@
+prendi TKE
+vai VAI
+guarda LOK
+lascia LVE
+apri OPN
+mangia EAT
+salute SLT
+s SLT
+inventario INV
+inv INV
+i INV
+aiuto HEL
+h HEL
+salva SLV
+carica LOA
+impugna IMP

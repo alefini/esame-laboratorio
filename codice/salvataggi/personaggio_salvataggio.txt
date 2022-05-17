@@ -1,0 +1,4 @@
+12
+25
+&2 spada 23 4
+*16 chiave true 

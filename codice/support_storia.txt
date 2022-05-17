@@ -1,0 +1,315 @@
+^1
+^1
+ATRIO CENTRALE
+Entrando nel castello e guardandoti intorno capisci di trovarti nell'atrio centrale. Di fronte a te vedi un lungo tappeto ricamato rosso pieno di polvere, affiancato da una serie di torce usurate piantate nel terreno. Una serie di statue in pietra è disposta a formare una semicirconferenza. In fondo alla stanza, a est, è visibile un piccolo corridoio che porta a delle scale.
+/statue 2 3 4
+*2 spada true a 23 5
+*3 ascia true a 32 3 
+*3 ascia true a 32 3 
+*4 scudo true a 7 10 
+*4 scudo true a 7 10 
+%2 e
+%2 e
+_
+_
+^2
+^2
+SCALE ATRIO
+SCALE ATRIO
+sei davanti alle scale che ti porteranno al primo piano del castello, a ovest il piccolo corridoio da cui sei arrivato.
+sei davanti alle scale che ti porteranno al primo piano del castello, a ovest il piccolo corridoio da cui sei arrivato.
+%3 a
+%3 a
+%1 o
+%1 o
+_
+_
+^3
+^3
+SCALE PRIMO PIANO
+SCALE PRIMO PIANO
+Sei giunto al primo piano del castello. Guardandoti intorno, molto intimorito, noti che vi è un’unica porta a nord.
+Sei giunto al primo piano del castello. Guardandoti intorno, molto intimorito, noti che vi è un’unica porta a nord.
+%2 b
+%2 b
+%4 n
+%4 n
+_
+_
+^4
+^4
+SALA DA PRANZO
+SALA DA PRANZO
+Sei nella sala da pranzo. La stanza è illuminata dal sole che entra dalle finestre impolverate e hai di fronte una tavola ancora imbandita. A ovest è presente una porta mentre a sud la stanza antecedente alle scale.
+Sei nella sala da pranzo. La stanza è illuminata dal sole che entra dalle finestre impolverate e hai di fronte una tavola ancora imbandita. A ovest è presente una porta mentre a sud la stanza antecedente alle scale.
+/tavola 5 6
+/tavola 5 6
+*5 tavola false 
+*5 tavola false 
+*6 bicchieri true 
+*6 bicchieri true 
+%5 o
+%5 o
+%3 s
+%3 s
+_
+_
+^5
+^5
+STANZA DI SERVIZIO
+STANZA DI SERVIZIO
+Sei nella stanza di servizio: nell’angolo è presente, seduto su una sedia, uno scheletro mentre nell’angolo opposto è presente un piccolo comodino. Al centro della stanza, il tavolo e tutte le sedie sono ribaltati e per terra vedi una brocca che presumi sia stata rotta da poco perché è ancoSei nella stanza di servizio: nell’angolo è presente, seduto su una sedia, uno scheletro mentre nell’angolo opposto è presente un piccolo comodino. Al centro della stanza, il tavolo e tutte le sedie sono ribaltati e per terra vedi una brocca che presumi sia stata rotta da poco perché è ancora presente dell’acqua per terra. Capisci di non essere solo. A est c’è la sala da pranzo e ci sono altre due porte, una a ovest e una a nord.
+ra presente dell’acqua per terra. Capisci di non essere solo. A est c’è la sala da pranzo e ci sono altre due porte, una a ovest e una a nord.
+/scheletro 8
+/scheletro 8
+/comodino 10
+/comodino 10
+*7 scheletro false
+*7 scheletro false
+*10 chiave true 
+*10 chiave true 
+*8 coltello true a 13 2 
+*8 coltello true a 13 2 
+*9 comodino false k false 1414 
+*9 comodino false k false 1414 
+%4 e
+%4 e
+%7 n
+%7 n
+%6 o
+%6 o
+_
+_
+^6
+^6
+CUCINA
+CUCINA
+Sei in cucina e la prima cosa che ti salta all’occhio è un uomo accovacciato in un angolo su dei sacchi di grano: si tratta di un mostro a due teste in cerca di cibo che, sentendoti arrivare, si volta con l’intenzione di volerti attaccare. 
+Sei in cucina e la prima cosa che ti salta all’occhio è un uomo accovacciato in un angolo su dei sacchi di grano: si tratta di un mostro a due teste in cerca di cibo che, sentendoti arrivare, si volta con l’intenzione di volerti attaccare. 
+COMINCIA IL COMBATTIMENTO!
+COMINCIA IL COMBATTIMENTO!
+... 
+... 
+FINE COMBATTIMENTO.
+FINE COMBATTIMENTO.
+sei in cucina, i fuochi sono spenti da un po’, c'è un tavolo e qualche mensola, altre sono cadute.
+sei in cucina, i fuochi sono spenti da un po’, c'è un tavolo e qualche mensola, altre sono cadute.
+/tavolo 12 13
+/tavolo 12 13
+/mensola 15 16
+/mensola 15 16
+*11 tavolo false 
+*11 tavolo false 
+*14 mensola false 
+*14 mensola false 
+*15 barattoli true 
+*15 barattoli true 
+*16 chiave true 
+*16 chiave true 
+*12 mela true c 10 
+*12 mela true c 10 
+*13 pane true c 15 
+*13 pane true c 15 
+%5 e
+%5 e
+_
+_
+^7
+^7
+CORRIDOIO PRINCIPALE
+CORRIDOIO PRINCIPALE
+Sei in un lungo corridoio. C’è poca luce perché tutte le finestre sono coperte da alcune spessi tende ma riesci comunque a scorgere due porte, una a ovest e una a est, a sud invece la porta per la stanza di servizio.
+Sei in un lungo corridoio. C’è poca luce perché tutte le finestre sono coperte da alcune spessi tende ma riesci comunque a scorgere due porte, una a ovest e una a est, a sud invece la porta per la stanza di servizio.
+%5 s
+%5 s
+%8 e
+%8 e
+%9 o
+%9 o
+_
+_
+^8
+^8
+BAGNO
+BAGNO
+Sei finito nel bagno. Hai davanti a te un grande specchio e un lavandino; nell’angolo noti una doccia. A est torni nel corridoio principale.
+Sei finito nel bagno. Hai davanti a te un grande specchio e un lavandino; nell’angolo noti una doccia. A est torni nel corridoio principale.
+/doccia 
+/doccia 
+COMINCIA IL COMBATTIMENTO!
+COMINCIA IL COMBATTIMENTO!
+…
+…
+FINE COMBATTIMENTO
+FINE COMBATTIMENTO
+*17 specchio false
+*17 specchio false
+*18 doccia false
+*18 doccia false
+%7 o
+%7 o
+_
+_
+^9
+^9
+MAGAZZINO
+MAGAZZINO
+Sei nel magazzino delle scorte. La stanza è piena di casse di legno e c’è un forte odore nauseabondo proveniente da alcuni sacchi di mele e patate che vedi per terra in un angolo. A nord è presente una porta. 
+Sei nel magazzino delle scorte. La stanza è piena di casse di legno e c’è un forte odore nauseabondo proveniente da alcuni sacchi di mele e patate che vedi per terra in un angolo. A nord è presente una porta. 
+/sacchi 20 21
+/sacchi 20 21
+*19 sacchi false
+*19 sacchi false
+*22 casse false
+*22 casse false
+*20 mela true c 10
+*20 mela true c 10
+*21 patata true c 15
+*21 patata true c 15
+%7 e
+%7 e
+%10 n
+%10 n
+_
+_
+^10
+^10
+SCALE PRIMO PIANO
+SCALE PRIMO PIANO
+sei davanti alle scale che ti porteranno al secondo piano del castello, a sud la porta del magazzino.
+sei davanti alle scale che ti porteranno al secondo piano del castello, a sud la porta del magazzino.
+%9 s
+%9 s
+%11 a
+%11 a
+_
+_
+^11
+^11
+SCALE SECONDO PIANO
+SCALE SECONDO PIANO
+Sei sulle scale che ti portano al secondo piano del castello, un piccolo corridoio che va verso nord.
+Sei sulle scale che ti portano al secondo piano del castello, un piccolo corridoio che va verso nord.
+%10 b
+%10 b
+%12 n
+%12 n
+_
+_
+^12
+^12
+GRANDE SALA CENTRALE
+GRANDE SALA CENTRALE
+Sei in una grande sala centrale, i lampadari si illuminano improvvisamente mentre lo attraversi. A sud ci sono le scale, e nelle altre direzioni, nord, est e ovest, ci sono tre porte.
+Sei in una grande sala centrale, i lampadari si illuminano improvvisamente mentre lo attraversi. A sud ci sono le scale, e nelle altre direzioni, nord, est e ovest, ci sono tre porte.
+%11 s
+%11 s
+%13 o
+%13 o
+%15 n
+%15 n
+%14 e
+%14 e
+_
+_
+^13
+^13
+STANZA DEL MEDICO
+STANZA DEL MEDICO
+Sei nella stanza del medico e subito noti accasciato su un lettino uno scheletro, armato di spada, che alzandosi e sistemandosi il torace si incammina verso di te puntandoti contro l’arma. 
+Sei nella stanza del medico e subito noti accasciato su un lettino uno scheletro, armato di spada, che alzandosi e sistemandosi il torace si incammina verso di te puntandoti contro l’arma. 
+COMINCIA IL COMBATTIMENTO!
+COMINCIA IL COMBATTIMENTO!
+…
+…
+FINE COMBATTIMENTO
+FINE COMBATTIMENTO
+Sei nella stanza del medico, è presente il lettino su cui poggia lo scheletro ed una scrivania. A est l’uscita dalla stanza.
+Sei nella stanza del medico, è presente il lettino su cui poggia lo scheletro ed una scrivania. A est l’uscita dalla stanza.
+/scrivania 24 25 26
+/scrivania 24 25 26
+*23 scrivania false
+*23 scrivania false
+*24 fascicoli true
+*24 fascicoli true
+*25 erbe_mediche true
+*25 erbe_mediche true
+*26 chiave true
+*26 chiave true
+%12 e
+%12 e
+_
+_
+^14
+^14
+CAPPELLA
+CAPPELLA
+Sei nella cappella, molto piccola e molto cupa, piena di panche in legno e, adornato, c’è un altare con un uomo ai suoi piedi, in ginocchio. A ovest l’uscita dalla cappella. 
+Sei nella cappella, molto piccola e molto cupa, piena di panche in legno e, adornato, c’è un altare con un uomo ai suoi piedi, in ginocchio. A ovest l’uscita dalla cappella. 
+/uomo Lì vicino c’è un uomo anziano in ginocchio: pensi che stia pregando ma in realtà ha sentito la tua presenza e sussurra “Sei entrato in un luogo sacro. L’unico modo per uscirne è risolvendo l’enigma che sto per proporti.”
+/uomo Lì vicino c’è un uomo anziano in ginocchio: pensi che stia pregando ma in realtà ha sentito la tua presenza e sussurra “Sei entrato in un luogo sacro. L’unico modo per uscirne è risolvendo l’enigma che sto per proporti.”
+//indovinello - da definire.
+//indovinello - da definire.
+Grande! Hai appena pronunciato la risposta esatta. L’uomo si gira, ti guarda e, alzando leggermente la mano, pronuncia qualcosa a te incomprensibile e punta il dito verso la porta a nord del corridoio centrale.
+Grande! Hai appena pronunciato la risposta esatta. L’uomo si gira, ti guarda e, alzando leggermente la mano, pronuncia qualcosa a te incomprensibile e punta il dito verso la porta a nord del corridoio centrale.
+*27 uomo false
+*27 uomo false
+%12 o
+%12 o
+_
+_
+^15
+^15
+STANZA DEL RE
+STANZA DEL RE
+Sei nella stanza del re, il letto è ben sistemato e la stanza è illuminata dalla luce che filtra dalle finestre, e come tutte le stanze dei più  grandi re, è presente una libreria e una scrivania. 
+Sei nella stanza del re, il letto è ben sistemato e la stanza è illuminata dalla luce che filtra dalle finestre, e come tutte le stanze dei più  grandi re, è presente una libreria e una scrivania. 
+/scrivania 29 30 31
+/scrivania 29 30 31
+/libreria 33
+/libreria 33
+//prendere libro
+//prendere libro
+Hai preso il libro: la libreria comincia a vibrare ed a muoversi verso ovest, rivelando un passaggio segreto che va verso il basso.
+Hai preso il libro: la libreria comincia a vibrare ed a muoversi verso ovest, rivelando un passaggio segreto che va verso il basso.
+*28 scrivania false
+*28 scrivania false
+*29 pergamene true
+*29 pergamene true
+*30 pennino true
+*30 pennino true
+*31 calamaio true
+*31 calamaio true
+*32 libreria false
+*32 libreria false
+*33 libro true
+*33 libro true
+%12 s
+%12 s
+%16 b
+%16 b
+_
+_
+^16
+^16
+SEGRETE
+SEGRETE
+Sei arrivato nelle segrete del castello: ti rendi immediatamente conto che non potrai più tornare indietro perché il luogo è senza via d’uscita.
+Sei arrivato nelle segrete del castello: ti rendi immediatamente conto che non potrai più tornare indietro perché il luogo è senza via d’uscita.
+Davanti a te ci sono numerose celle vuote, tranne una: in quella noti un baule stracolmo di monete, è proprio il tesoro che stai cercando!
+Davanti a te ci sono numerose celle vuote, tranne una: in quella noti un baule stracolmo di monete, è proprio il tesoro che stai cercando!
+/baule
+/baule
+Attento! È appena sbucato un grosso grifone che, per proteggere il baule, si scaglia contro di te combattendo.
+Attento! È appena sbucato un grosso grifone che, per proteggere il baule, si scaglia contro di te combattendo.
+COMINCIA IL COMBATTIMENTO
+COMINCIA IL COMBATTIMENTO
+...
+...
+FINE
+FINE
+*34 baule true
+*34 baule true
+%17 n
+%17 n
+__

@@ -1,0 +1,150 @@
+^1
+ATRIO CENTRALE
+Entrando nel castello e guardandoti intorno capisci di trovarti nell'atrio centrale. Di fronte a te vedi un lungo tappeto ricamato rosso pieno di polvere, affiancato da una serie di torce usurate piantate nel terreno. Una serie di statue in pietra è disposta a formare una semicirconferenza. In fondo alla stanza, a est, è visibile un piccolo corridoio che porta a delle scale.
+/statue 2 3 4
+*1 statue false 
+*2 spada true a 23 5 
+*3 ascia true a 32 3 
+*4 scudo true a 7 10 
+%2 e true 0
+_
+^2
+SCALE ATRIO
+sei davanti alle scale che ti porteranno al primo piano del castello, a ovest il piccolo corridoio da cui sei arrivato.
+%3 a true 0
+%1 o true 0
+_
+^3
+SCALE PRIMO PIANO
+Sei giunto al primo piano del castello. Guardandoti intorno, molto intimorito, noti che vi è un’unica porta a nord.
+%2 b true 0
+%4 n false 0
+_
+^4
+SALA DA PRANZO
+Sei nella sala da pranzo. La stanza è illuminata dal sole che entra dalle finestre impolverate e hai di fronte una tavola ancora imbandita. A ovest è presente una porta mentre a sud la stanza antecedente alle scale.
+/tavola 6
+*5 tavola false 
+*6 bicchieri true 
+%5 o true 0
+%3 s true 0
+_
+^5
+STANZA DI SERVIZIO
+Sei nella stanza di servizio: nell’angolo è presente, seduto su una sedia, uno scheletro mentre nell’angolo opposto è presente un piccolo comodino. Al centro della stanza, il tavolo e tutte le sedie sono ribaltati e per terra vedi una brocca che presumi sia stata rotta da poco perché è ancora presente dell’acqua per terra. Capisci di non essere solo. A est c’è la sala da pranzo e ci sono altre due porte, una a ovest e una a nord.
+/scheletro 8
+/comodino 10
+*7 scheletro false
+*10 chiave true 
+*8 coltello true a 13 2 
+*9 comodino false k false 0 
+%4 e true 0
+%7 n false 10
+%6 o true 0
+_
+^6
+CUCINA
+&100 15 3
+$Sei in cucina e la prima cosa che ti salta all’occhio è un uomo accovacciato in un angolo su dei sacchi di grano: si tratta di un mostro a due teste in cerca di cibo che, sentendoti arrivare, si volta con l’intenzione di volerti attaccare. 
+sei in cucina, i fuochi sono spenti da un po’, c'è un tavolo e qualche mensola, altre sono cadute.
+/tavolo 12 13
+/mensola 15 16
+*11 tavolo false 
+*14 mensola false 
+*15 barattoli true 
+*16 chiave true 
+*12 mela true c 10 
+*13 pane true c 15 
+%5 e true 0
+_
+^7
+CORRIDOIO PRINCIPALE
+Sei in un lungo corridoio. C’è poca luce perché tutte le finestre sono coperte da alcune spessi tende ma riesci comunque a scorgere due porte, una a ovest e una a est, a sud invece la porta per la stanza di servizio.
+%5 s true 0
+%8 e false 0
+%9 o false 0
+_
+^8
+BAGNO
+&100 23 5
+$attenzione! un mostro che corre verso di te!
+Sei finito nel bagno. Hai davanti a te un grande specchio e un lavandino; nell’angolo noti una doccia. A est torni nel corridoio principale.
+/doccia
+/specchio
+*17 specchio false
+*18 doccia false
+%7 o true 0
+_
+^9
+MAGAZZINO
+Sei nel magazzino delle scorte. La stanza è piena di casse di legno e c’è un forte odore nauseabondo proveniente da alcuni sacchi di mele e patate che vedi per terra in un angolo. A nord è presente una porta. 
+/sacchi 20 21
+/casse
+*19 sacchi false
+*22 casse false
+*20 mela true c 10
+*21 patata true c 15
+%7 e true 0
+%10 n true 0
+_
+^10
+SCALE PRIMO PIANO
+sei davanti alle scale che ti porteranno al secondo piano del castello, a sud la porta del magazzino.
+%9 s true 0
+%11 a true 0
+_
+^11
+SCALE SECONDO PIANO
+Sei sulle scale che ti portano al secondo piano del castello, un piccolo corridoio che va verso nord.
+%10 b true 0
+%12 n true 0
+_
+^12
+GRANDE SALA CENTRALE
+Sei in una grande sala centrale, i lampadari si illuminano improvvisamente mentre lo attraversi. A sud ci sono le scale, e nelle altre direzioni, nord, est e ovest, ci sono tre porte.
+%11 s true 0
+%13 o false 0
+%15 n false -1
+%14 e false 26
+_
+^13
+STANZA DEL MEDICO
+&100 20 6
+$Sei nella stanza del medico e subito noti accasciato su un lettino uno scheletro, armato di spada, che alzandosi e sistemandosi il torace si incammina verso di te puntandoti contro l’arma. 
+Sei nella stanza del medico, è presente il lettino su cui poggia lo scheletro ed una scrivania. A est l’uscita dalla stanza.
+/scrivania 24 25 26
+*23 scrivania false
+*24 fascicoli true
+*25 erbe true
+*26 chiave true
+%12 e true 0
+_
+^14
+CAPPELLA
+Sei nella cappella, molto piccola e molto cupa, piena di panche in legno e, adornato, c’è un altare con un uomo ai suoi piedi, in ginocchio. A ovest l’uscita dalla cappella. 
+/uomo
+*27 uomo false
+%12 o true 0
+_
+^15
+STANZA DEL RE
+Sei nella stanza del re, il letto è ben sistemato e la stanza è illuminata dalla luce che filtra dalle finestre, e come tutte le stanze dei più  grandi re, è presente una libreria e una scrivania. 
+/scrivania 29 30 31
+/libreria 33
+*28 scrivania false
+*29 pergamene true
+*30 pennino true
+*31 calamaio true
+*32 libreria false
+*33 libro true
+%12 s true 0
+%16 b false 33
+_
+^16
+SEGRETE
+&150 26 0
+$attenzione! un grosso grifone che protegge quello che potrebbe essere il baule!
+L'enorme grifone, ormai morto, si accascia per terra.
+Il tesoro è proprio davanti a te.
+James ormai stremato, spaventato e ancora incredulo sulle cose che ha visto riesce a tornare a casa con il suo più grande tesoro venendo riconosciuto da tutti come il più grande esploratore di sempre… ma chi lo sa quali altre avventure possono attendere il nostro James ormai entrato in contatto con un mondo più grande di lui…
+_
